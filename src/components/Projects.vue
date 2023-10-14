@@ -6,8 +6,10 @@ const items = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 <template>
     <div class="col">
         <h1>Projects</h1>
-        <div v-for="item in items" class="project">
-            {{ item.message }}
+        <div class="col">
+            <div v-for="item in items" class="project">
+                {{ item.message }}
+            </div>
         </div>
     </div>
 </template>
@@ -15,5 +17,10 @@ const items = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 <style>
 .project {
     background-color: aquamarine;
+}
+
+div {
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 </style>
