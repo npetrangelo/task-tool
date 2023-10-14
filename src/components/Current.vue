@@ -6,7 +6,7 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 <template>
     <div class="col">
         <h1>Current Tasks</h1>
-        <div class="tasks">
+        <div class="tasks standout">
             <li v-for="task in tasks">
                 {{ task.message }}
             </li>
