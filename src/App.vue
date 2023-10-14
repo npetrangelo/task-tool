@@ -24,7 +24,7 @@ import Starred from './components/Starred.vue';
 div {
     border-radius: 5px;
     border: 1px solid transparent;
-    /* border-color: #249b73; */
+    border-color: #249b73;
     padding: 0em 1.0em;
     font-size: 0.95em;
     font-weight: 500;
@@ -35,6 +35,11 @@ div {
 </style>
 
 <style scoped>
+.row {
+    justify-content: space-between;
+    height: 100%;
+}
+
 .logo.vite:hover {
   filter: drop-shadow(0 0 2em #747bff);
 }
