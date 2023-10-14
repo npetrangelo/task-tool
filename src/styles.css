@@ -16,12 +16,35 @@
 
 .container {
   margin: 0;
-  padding: 2vh;
-  width: 95%;
-  height: 100%;
-  flex-direction: column;
-  justify-content: center;
+  padding: 10px;
   text-align: center;
+  height: 90vh;
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 20% auto 20%;
+  grid-template-areas: 
+    "projects current recent"
+    "projects current starred";
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.current {
+  grid-area: current;
+}
+
+.recent {
+  grid-area: recent;
+}
+
+.starred {
+  grid-area: starred;
 }
 
 .logo {
@@ -33,17 +56,6 @@
 
 .logo.tauri:hover {
   filter: drop-shadow(0 0 2em #24c8db);
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
 }
 
 .standout {
