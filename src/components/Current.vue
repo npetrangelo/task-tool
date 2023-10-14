@@ -16,7 +16,6 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 
 <style>
 .current {
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
