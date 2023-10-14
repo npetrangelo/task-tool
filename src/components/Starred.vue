@@ -13,3 +13,10 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
         </div>
     </div>
 </template>
+
+<style>
+.starred {
+    display: flex;
+    flex-direction: column;
+}
+</style>
