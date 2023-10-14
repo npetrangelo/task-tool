@@ -1,20 +1,20 @@
+<script setup lang="ts">
+// This starter template is using Vue 3 <script setup> SFCs
+// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+import Projects from './components/Projects.vue';
+import Current from './components/Current.vue';
+import Recent from './components/Recent.vue';
+import Starred from './components/Starred.vue';
+</script>
+
 <template>
     <div class="container">
         <div class="row">
+            <Projects/>
+            <Current/>
             <div class="col">
-                <h1>Projects</h1>
-                <p>stuff</p>
-                <p>stuff</p>
-                <p>stuff</p>
-                <p>stuff</p>
-                <p>stuff</p>
-            </div>
-            <div class="col">
-                <h1>Current Tasks</h1>
-            </div>
-            <div class="col">
-                <h1>Recently Completed</h1>
-                <h1>Starred Completes</h1>
+                <Recent/>
+                <Starred/>
             </div>
         </div>
     </div>
