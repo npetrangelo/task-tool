@@ -16,7 +16,6 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 
 <style>
 .tasks {
-    border-radius: 10px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     text-align: left;
     padding-left: 2vh;

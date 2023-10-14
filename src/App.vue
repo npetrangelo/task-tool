@@ -20,6 +20,20 @@ import Starred from './components/Starred.vue';
     </div>
 </template>
 
+<style>
+div {
+    border-radius: 10px;
+    border: 1px solid transparent;
+    /* border-color: #249b73; */
+    padding: 0em 1.0em;
+    font-size: 0.95em;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    transition: border-color 0.25s;
+}
+</style>
+
 <style scoped>
 .logo.vite:hover {
   filter: drop-shadow(0 0 2em #747bff);
@@ -27,18 +41,5 @@ import Starred from './components/Starred.vue';
 
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #249b73);
-}
-
-div {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    /* border-color: #249b73; */
-    border-radius: 8px;
-    padding: 0.6em 1.2em;
-    font-size: 0.95em;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0f0f0f;
-    transition: border-color 0.25s;
 }
 </style>

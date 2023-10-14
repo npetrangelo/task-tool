@@ -16,7 +16,6 @@ const items = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 
 <style>
 .project {
-    border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 </style>
