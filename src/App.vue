@@ -40,6 +40,5 @@ div {
     font-family: Arial, Helvetica, sans-serif;
     color: #0f0f0f;
     transition: border-color 0.25s;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 </style>

@@ -7,7 +7,7 @@ const items = ref([{ message: 'Foo' }, { message: 'Bar' }]);
     <div class="col">
         <h1>Projects</h1>
         <div class="col">
-            <div v-for="item in items" class="standout">
+            <div v-for="item in items" class="standout project">
                 {{ item.message }}
             </div>
         </div>
@@ -15,7 +15,7 @@ const items = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 </template>
 
 <style>
-div {
+.project {
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
