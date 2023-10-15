@@ -22,7 +22,7 @@ body {
 
 .container {
   text-align: center;
-  height: max(98vh, 400px);
+  height: 93vh;
 }
 
 .grid {
