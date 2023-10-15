@@ -5,7 +5,7 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 
 <template>
     <div class="current">
-        <h1>Current Tasks</h1>
+        <h1>Current&nbspTasks</h1>
         <div class="tasks standout">
             <li v-for="task in tasks">
                 {{ task.message }}
