@@ -22,7 +22,7 @@ import Starred from './components/Starred.vue';
 div {
     border-radius: 5px;
     border: 1px solid transparent;
-    /* border-color: #249b73; */
+    border-color: #249b73;
     padding: 0em 0.5em;
     font-size: 0.95em;
     font-weight: 500;
