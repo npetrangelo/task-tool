@@ -4,7 +4,7 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 </script>
 
 <template>
-    <div class="col current">
+    <div class="current">
         <h1>Current Tasks</h1>
         <div class="tasks standout">
             <li v-for="task in tasks">
@@ -16,13 +16,13 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 
 <style>
 .current {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .tasks {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     text-align: left;
     padding-left: 2vh;
     height: 100%;
-    align-self: stretch;
 }
 </style>

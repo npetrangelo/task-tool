@@ -4,7 +4,7 @@ const items = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 </script>
 
 <template>
-    <div class="col">
+    <div class="projects">
         <h1>Projects</h1>
         <div class="col">
             <div v-for="item in items" class="standout project">

@@ -9,13 +9,11 @@ import Starred from './components/Starred.vue';
 
 <template>
     <div class="container">
-        <div class="row">
+        <div class="grid">
             <Projects/>
             <Current/>
-            <div class="col">
-                <Recent/>
-                <Starred/>
-            </div>
+            <Recent/>
+            <Starred/>
         </div>
     </div>
 </template>
