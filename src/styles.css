@@ -15,11 +15,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  margin: 0px;
+  height: 99%;
+}
+
 .container {
-  margin: 0;
-  padding: 0px;
   text-align: center;
-  height: 100vh;
+  height: max(98vh, 400px);
 }
 
 .grid {
