@@ -28,11 +28,24 @@ body {
 .grid {
   height: 100%;
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 54px auto auto;
   grid-template-columns: max(150px, 20%) auto max(150px, 20%);
-  grid-template-areas: 
+  grid-template-areas:
+    "ptitle ctitle rtitle"
     "projects current recent"
     "projects current starred";
+}
+
+.ptitle {
+  grid-area: ptitle;
+}
+
+.ctitle {
+  grid-area: ctitle;
+}
+
+.rtitle {
+  grid-area: rtitle;
 }
 
 .projects {

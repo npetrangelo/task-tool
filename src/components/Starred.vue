@@ -6,7 +6,7 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 <template>
     <div class="starred">
         <h1>Starred Completes</h1>
-        <div class="col tasks standout">
+        <div class="tasks standout">
             <li v-for="task in tasks">
                 {{ task.message }}
             </li>
@@ -18,5 +18,14 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 .starred {
     display: flex;
     flex-direction: column;
+}
+</style>
+
+<style scoped>
+.tasks {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-left: 2vh;
+    margin: 0px;
 }
 </style>

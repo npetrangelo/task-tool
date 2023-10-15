@@ -4,13 +4,11 @@ const tasks = ref([{ message: 'Foo' }, { message: 'Bar' }]);
 </script>
 
 <template>
-    <div class="recent">
-        <h1>Recently Completed</h1>
-        <div class="tasks standout">
-            <li v-for="task in tasks">
-                {{ task.message }}
-            </li>
-        </div>
+    <h1 class="rtitle">Recently Completed</h1>
+    <div class="recent tasks standout">
+        <li v-for="task in tasks">
+            {{ task.message }}
+        </li>
     </div>
 </template>
 
