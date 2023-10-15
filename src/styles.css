@@ -5,7 +5,8 @@
   font-weight: 400;
 
   color: #0f0f0f;
-  background-color: #e5e5e5;
+  background-color: #f7f7f7;
+  height: 100%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,7 +26,7 @@
   height: 100%;
   display: grid;
   grid-template-rows: 50% 50%;
-  grid-template-columns: 20% auto 20%;
+  grid-template-columns: max(150px, 20%) auto max(150px, 20%);
   grid-template-areas: 
     "projects current recent"
     "projects current starred";
@@ -59,7 +60,7 @@
 }
 
 .standout {
-  background-color: whitesmoke;
+  background-color: #ffffff;
 }
 
 a {
