@@ -7,6 +7,9 @@ pub fn write_file() -> std::io::Result<()> {
     Ok(())
 }
 
-pub fn read_file() -> std::io::Result<File> {
-    File::open("foo.txt")
+pub fn read_file() -> std::io::Result<String> {
+    let mut file = File::open("foo.txt")?;
+    let mut buf = String::new();
+    file.read_to_string(&mut buf)?;
+    Ok(buf)
 }
